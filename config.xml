@@ -2,23 +2,23 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.claro.android.cell"
-    version   = "10.6.01">
+    version   = "1.6.13">
 
-<name>Catálogo Digital Claro</name>
+<name>Revista Mi Gente TV</name>
 
 <description>
-Catálogo de equipos de Claro Colombia.
+Revista Mi Gente TV Septiembre 2013.
 </description>
 
 <author href="https://vistad.co" email="vista@vistad.co">
 Royal Media
 </author>
 
-<preference name="phonegap-version" value="2.7.0" />
+<preference name="phonegap-version" value="2.9.0" />
 
 <preference name="splash-screen-duration" value="7000" />
 
-<preference name="orientation" value="default" />
+<preference name="orientation" value="portrait" />
 
 <preference name="fullscreen" value="true" />
 
