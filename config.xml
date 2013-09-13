@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.claro.android.cell"
+    version   = "10.6.01">
+
+<name>Catálogo Digital Claro</name>
+
+<description>
+Catálogo de equipos de Claro Colombia.
+</description>
+
+<author href="https://vistad.co" email="vista@vistad.co">
+Royal Media
+</author>
+
+<preference name="phonegap-version" value="2.7.0" />
+
+<preference name="splash-screen-duration" value="7000" />
+
+<preference name="orientation" value="default" />
+
+<preference name="fullscreen" value="true" />
+
+<preference name="permissions" value="none"/>
+
+<icon src="icon.png" />
+<icon src="iconos/android/icono-36x36.png" gap:platform="android" gap:density="ldpi" />
+<icon src="iconos/android/icono-48x48.png" gap:platform="android" gap:density="mdpi" />
+<icon src="iconos/android/icono-72x72.png" gap:platform="android" gap:density="hdpi" />
+<icon src="iconos/android/icono-144x144.png" gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="splash.png" />
+<gap:splash src="splash/android/splash-200x320.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/splash-320x480.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/splash-480x800.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/android/splash-720x1280.png" gap:platform="android" gap:density="xhdpi" />
+
+</widget>
