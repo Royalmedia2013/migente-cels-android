@@ -59,6 +59,8 @@
  .tile.triple-box .boxContent{ height:491px; width:491px}
  .tile.triple-double-box{ height:503px; width:332px}
  .tile.triple-double-box .boxContent{ height:491px; width:332px}
+  .tile.triple-double-box-v{ height:332px; width:503px}
+ .tile.triple-double-box-v .boxContent{ height:332px; width:491px}
  .tile.quadro-box{ height:658px; width:658px}
  .tile.quadro-box .boxContent{ height:658px; width:658px}
  .tile.quadro-double-box-v{ height:658px; width:324px}
@@ -97,6 +99,8 @@
  .tile.triple-box .boxContent{ height:497px; width:497px}
  .tile.triple-double-box{ height:328px; width:497px}
  .tile.triple-double-box .boxContent{ height:328px; width:497px}
+ .tile.triple-double-box-v{ height:497px; width:328px}
+ .tile.triple-double-box-v .boxContent{ height:497px; width:328px}
  .tile.quadro-box{ height:666px; width:666px}
  .tile.quadro-box .boxContent{ height:666px; width:666px}
  .tile.quadro-double-box-v{ height:666px; width:328px}
@@ -136,6 +140,8 @@
  .tile.triple-box .boxContent{ height:560px; width:560px}
  .tile.triple-double-box{ height:370px; width:560px}
  .tile.triple-double-box .boxContent{ height:370px; width:560px}
+ .tile.triple-double-box-v{ height:560px; width:370px}
+ .tile.triple-double-box-v .boxContent{ height:560px; width:370px}
  .tile.quadro-box{ height:750px; width:750px}
  .tile.quadro-box .boxContent{ height:750px; width:750px}
  .tile.quadro-double-box-v{ height:750px; width:370px}
@@ -176,6 +182,8 @@
  .tile.triple-box .boxContent{ height:551px; width:551px}
  .tile.triple-double-box{ height:364px; width:551px}
  .tile.triple-double-box .boxContent{ height:364px; width:551px}
+ .tile.triple-double-box-v{ height:551px; width:364px}
+ .tile.triple-double-box-v .boxContent{ height:551px; width:364px}
  .tile.quadro-box{ height:738px; width:738px}
  .tile.quadro-box .boxContent{ height:738px; width:738px}
  .tile.quadro-double-box-v{ height:738px; width:364px}
@@ -216,6 +224,8 @@
  .tile.triple-box .boxContent{ height:515px; width:515px}
  .tile.triple-double-box{ height:340px; width:515px}
  .tile.triple-double-box .boxContent{ height:340px; width:515px}
+  .tile.triple-double-box-v{ height:515px; width:340px}
+ .tile.triple-double-box-v .boxContent{ height:515px; width:340px}
  .tile.quadro-box{ height:690px; width:690px}
  .tile.quadro-box .boxContent{ height:690px; width:690px}
  .tile.quadro-double-box-v{ height:690px; width:340px}
@@ -256,6 +266,8 @@
  .tile.triple-box .boxContent{ height:461px; width:461px}
  .tile.triple-double-box{ height:304px; width:461px}
  .tile.triple-double-box .boxContent{ height:304px; width:461px}
+  .tile.triple-double-box-v{ height:461px; width:304px}
+ .tile.triple-double-box-v .boxContent{ height:461px; width:304px}
  .tile.quadro-box{ height:618px; width:618px}
  .tile.quadro-box .boxContent{ height:618px; width:618px}
  .tile.quadro-double-box-v{ height:618px; width:304px}
@@ -296,6 +308,8 @@
  .tile.triple-box .boxContent{ height:284px; width:284px}
  .tile.triple-double-box{ height:186px; width:284px}
  .tile.triple-double-box .boxContent{ height:186px; width:284px}
+  .tile.triple-double-box-v{ height:284px; width:186px}
+ .tile.triple-double-box-v .boxContent{ height:284px; width:186px}
  .tile.quadro-box{ height:382px; width:382px}
  .tile.quadro-box .boxContent{ height:382px; width:382px}
  .tile.quadro-double-box-v{ height:382px; width:186px}
@@ -335,6 +349,8 @@
  .tile.triple-box .boxContent{ height:281px; width:281px}
  .tile.triple-double-box{ height:184px; width:281px}
  .tile.triple-double-box .boxContent{ height:184px; width:281px}
+  .tile.triple-double-box-v{ height:281px; width:184px}
+ .tile.triple-double-box-v .boxContent{ height:281px; width:184px}
  .tile.quadro-box{ height:378px; width:378px}
  .tile.quadro-box .boxContent{ height:378px; width:378px}
  .tile.quadro-double-box-v{ height:378px; width:184px}
@@ -374,6 +390,8 @@
  .tile.triple-box .boxContent{ height:269px; width:269px}
  .tile.triple-double-box{ height:176px; width:269px}
  .tile.triple-double-box .boxContent{ height:176px; width:269px}
+  .tile.triple-double-box-v{ height:269px; width:176px}
+ .tile.triple-double-box-v .boxContent{ height:269px; width:176px}
  .tile.quadro-box{ height:362px; width:362px}
  .tile.quadro-box .boxContent{ height:362px; width:362px}
  .tile.quadro-double-box-v{ height:362px; width:176px}
@@ -415,6 +433,8 @@
  .tile.t3x-b .boxContent{ height:251px; width:251px}
  .tile.t3x-t2x-b{ height:164px; width:251px}
  .tile.t3x-t2x-b .boxContent{ height:164px; width:251px}
+  .tile.t3x-t2x-b-v{ height:251px; width:164px}
+ .tile.t3x-t2x-b-v .boxContent{ height:251px; width:164px}
  .tile.t4x-b{ height:338px; width:338px}
  .tile.t4x-b .boxContent{ height:338px; width:338px}
  .tile.t4x-t2x-b{ height:338px; width:164px}
@@ -456,6 +476,8 @@
  .tile.triple-box .boxContent{ height:371px; width:371px}
  .tile.triple-double-box{ height:244px; width:371px}
  .tile.triple-double-box .boxContent{ height:244px; width:371px}
+  .tile.triple-double-box-v{ height:371px; width:244px}
+ .tile.triple-double-box-v .boxContent{ height:371px; width:244px}
  .tile.quadro-box{ height:498px; width:498px}
  .tile.quadro-box .boxContent{ height:498px; width:498px}
  .tile.quadro-double-box-v{ height:498px; width:244px}
@@ -496,6 +518,8 @@
  .tile.triple-box .boxContent{ height:224px; width:224px}
  .tile.triple-double-box{ height:146px; width:224px}
  .tile.triple-double-box .boxContent{ height:146px; width:224px}
+  .tile.triple-double-box-v{ height:224px; width:146px}
+ .tile.triple-double-box-v .boxContent{ height:224px; width:146px}
  .tile.quadro-box{ height:302px; width:302px}
  .tile.quadro-box .boxContent{ height:302px; width:302px}
  .tile.quadro-double-box-v{ height:302px; width:146px}
@@ -536,6 +560,8 @@
  .tile.triple-box .boxContent{ height:281px; width:281px}
  .tile.triple-double-box{ height:184px; width:281px}
  .tile.triple-double-box .boxContent{ height:184px; width:281px}
+  .tile.triple-double-box-v{ height:281px; width:184px}
+ .tile.triple-double-box-v .boxContent{ height:281px; width:184px}
  .tile.quadro-box{ height:378px; width:378px}
  .tile.quadro-box .boxContent{ height:378px; width:378px}
  .tile.quadro-double-box-v{ height:378px; width:184px}
@@ -576,6 +602,8 @@
  .tile.triple-box .boxContent{ height:251px; width:251px}
  .tile.triple-double-box{ height:164px; width:251x}
  .tile.triple-double-box .boxContent{ height:164px; width:251px}
+  .tile.triple-double-box-v{ height:251px; width:164x}
+ .tile.triple-double-box-v .boxContent{ height:251px; width:164px}
  .tile.quadro-box{ height:338px; width:338px}
  .tile.quadro-box .boxContent{ height:338px; width:338px}
  .tile.quadro-double-box-v{ height:338px; width:164px}
@@ -616,6 +644,8 @@
  .tile.triple-box .boxContent{ height:221px; width:221px}
  .tile.triple-double-box{ height:144px; width:221px}
  .tile.triple-double-box .boxContent{ height:144px; width:221px}
+  .tile.triple-double-box-v{ height:221px; width:144px}
+ .tile.triple-double-box-v .boxContent{ height:221px; width:144px}
  .tile.quadro-box{ height:298px; width:298px}
  .tile.quadro-box .boxContent{ height:298px; width:298px}
  .tile.quadro-double-box-v{ height:298px; width:144px}
