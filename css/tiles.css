@@ -57,10 +57,10 @@
  .tile.double-box .boxContent{ height:324px; width:324px}
  .tile.triple-box{ height:491px; width:491px}
  .tile.triple-box .boxContent{ height:491px; width:491px}
- .tile.triple-double-box{ height:491px; width:332px}
+ .tile.triple-double-box{ height:503px; width:332px}
  .tile.triple-double-box .boxContent{ height:491px; width:332px}
- .tile.triple-double-box-v{ height:491px; width:324px}
- .tile.triple-double-box-v .boxContent{ height:491px; width:324px}
+  .tile.triple-double-box-v{ height:332px; width:503px}
+ .tile.triple-double-box-v .boxContent{ height:332px; width:491px}
  .tile.quadro-box{ height:658px; width:658px}
  .tile.quadro-box .boxContent{ height:658px; width:658px}
  .tile.quadro-double-box-v{ height:658px; width:324px}

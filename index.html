@@ -93,11 +93,38 @@
 				</div>
 			<div class="tilename "></div>
             </div>
+           
+        
+        <!-- Slider Tile Files -->
+		<script src='js/camera.js' type='text/javascript'></script> 
+        <link href='css/camera.css' id='camera-css' media='all' rel='stylesheet' type='text/css'>
+		<script>
+		jQuery(function(){jQuery('.cameracontainer').camera({height: 'auto',loader: 'bar',pagination: false,thumbnails: false,time: 5000,transPeriod: 1500,});});
+        </script>
+		<!-- / Slider Tile Files -->
+        
+        <!--  Photo Swipe Gallery Custom JS  -->
+                <link rel='stylesheet' id='photoswipe-css'  href='css/photoswipe.css' type='text/css' media='all' />
+                <script type='text/javascript' src='js/klass.min.js'></script>
+                <script type='text/javascript' src='js/photoswipe.js'></script>
+                <script type="text/javascript">
+                (function(window, $, PhotoSwipe){
+    				$(document).ready(function(){
+
+        				var options = {};
+        				$('.gallery').each(function(i, e) {
+            				PhotoSwipe.attach($(e).find('a'), options);
+        				});
+
+    				})
+				}(window, window.jQuery, window.Code.PhotoSwipe));
+                </script>
+                <!--  Photo Swipe Gallery Custom JS End-->
         
         
-        <!-- Botón Giovanny -->
-        <a class='tile TGrey triple-double-box-v iconmain' href="01portada1.html"><img alt="Giovanny" src="images/migente/entrada_01_giovanny.png" title="Giovanny Ayala"></a>
-        <!-- / Final Botón Giovanny -->
+        <!-- Botón Johnny -->
+        <a class='tile TGrey double-box iconmain' href="01portada1.html"><img alt="Johnny Rivera" src="images/migente/entrada_01_johnny.png" title="Johnny Rivera"></a>
+        <!-- / Final Botón Johnny -->
 
 
         <!-- Botón Editorial -->
@@ -105,9 +132,9 @@
         <!-- / Final Botón Editorial -->
         
         
-        <!-- Botón Alejandra -->
-        <a class='tile TGrey triple-double-box-v iconmain' href="03portada2.html"><img alt="Alejandra" src="images/migente/entrada_03_alejandra.png" title="Alejandra"></a>
-        <!-- / Final Botón Alejandra -->
+        <!-- Botón Liliana -->
+        <a class='tile TGrey double-box iconmain' href="03portada2.html"><img alt="Liliana Duque" src="images/migente/entrada_03_liliana.png" title="Liliana Duque"></a>
+        <!-- / Final Botón Liliana -->
         
         
         <!-- Botón Chismes -->
@@ -120,9 +147,9 @@
         <!-- / Final Botón Portal -->
         
         
-        <!-- Botón Andres -->
-        <a class='tile TGrey double iconmain' href="06presenta.html"><img alt="Karoll" src="images/migente/entrada_06_andres.png" title="Karoll"></a>
-        <!-- / Final Botón Andres -->
+        <!-- Botón Skinny -->
+        <a class='tile TGrey double iconmain' href="06presenta.html"><img alt="Skinny Happy" src="images/migente/entrada_06_skinny.png" title="Skinny Happy"></a>
+        <!-- / Final Botón Skinny -->
         
         
         <!-- Botón Chile -->
@@ -132,52 +159,60 @@
         
         <!-- Botón Modelo -->
         <a class='tile TGrey double-box iconmain' href="08modelo.html"><img alt="Modelo" src="images/migente/entrada_08_modelo.png" title="Modelo"></a>
-        <!-- / Final Botón otros 1 -->
+        <!-- / Final Botón Modelo -->
         
-        <!-- Botón Muro -->
-        <a class='tile TGrey double-box iconmain' href="09muro.html"><img alt="Muro" src="images/migente/entrada_09_muro.png" title="Muro"></a>
-        <!-- / Final Botón Muro -->
+        <!-- Botón Lady Yuliana -->
+        <a class='tile TGrey double-box iconmain' href="09concierto1.html"><img alt="Lady Yuliana" src="images/migente/entrada_09_lady.png" title="Lady Yuliana"></a>
+        <!-- / Final Botón Lady Yuliana -->
         
-        <!-- Botón Alfredo -->
-        <a class='tile TGrey triple iconmain' href="10concierto1.html"><img alt="Alfredo" src="images/migente/entrada_10_alfredo.png" title="Alfredo"></a>
-        <!-- / Final Botón Alfredo -->
+        <!-- Botón Tinto -->
+        <a class='tile TGrey triple iconmain' href="10concierto2.html"><img alt="Tinto" src="images/migente/entrada_10_tinto.png" title="Tinto"></a>
+        <!-- / Final Botón Tinto -->
         
         
         <!-- Botón Eventos-->
-        <a class='tile TGrey triple-v iconmain' href="11eventos.html"><img alt="Eventos" src="images/migente/entrada_11_eventos.png" title="Top5"></a>
+        <a class='tile TGrey triple-v iconmain' href="11eventos.html"><img alt="Eventos" src="images/migente/entrada_11_eventos.png" title="Eventos"></a>
         <!-- / Final Botón Eventos-->
         
-        <!-- Botón Especial-->
-        <a class='tile TGrey double-box iconmain' href="12invitada.html"><img alt="Especial" src="images/migente/entrada_12_invitada.png" title="Especial"></a>
-        <!-- / Final Botón Especial-->
+        <!-- Botón Danny-->
+        <a class='tile TGrey double-box iconmain' href="12concierto3.html"><img alt="Danny Marin" src="images/migente/entrada_12_danny.png" title="Danny Marin"></a>
+        <!-- / Final Botón Danny-->
         
-        <!-- Botón Top5-->
-       <a class='tile TGrey double-v iconmain' href="13top5.html"><img alt="Top5" src="images/migente/entrada_13_top.png" title="Top5"></a>
-        <!-- / Final Botón Top5-->
+        <!-- Botón Termometro-->
+       <a class='tile TGrey double-v iconmain' href="13termometro.html"><img alt="Termometro" src="images/migente/entrada_13_termometro.png" title="Termometro"></a>
+        <!-- / Final Botón Termometro-->
         
-        <!-- Botón Nelson-->
-        <a class='tile TGrey triple iconmain' href="14tradicional.html"><img alt="Tradicional" src="images/migente/entrada_14_tradicional.png" title="Tradicional"></a>
-        <!-- / Final Botón Nelson-->
+        <!-- Botón DanielC-->
+        <a class='tile TGrey triple iconmain' href="14concierto4.html"><img alt="Daniel Calderon" src="images/migente/entrada_14_daniel.png" title="Daniel Calderon"></a>
+        <!-- / Final Botón DanielC-->
         
-        <!-- Botón Belky-->
+        <!-- Botón Mariana-->
         <a class='tile TGrey triple-v iconmain' href="15moda.html"><img alt="Moda" src="images/migente/entrada_15_moda.png" title="Moda"></a>
-        <!-- / Final Botón Belky-->
+        <!-- / Final Botón Mariana-->
         
-        <!-- Botón Cinema-->
-        <a class='tile TGrey triple iconmain' href="16cinema.html"><img alt="Cinema" src="images/migente/entrada_16_cinema.png" title="cinema"></a>
-        <!-- / Final Botón Cinema-->
+        <!-- Botón Jean C-->
+        <a class='tile TGrey triple iconmain' href="16tradicional.html"><img alt="Jean Carlos Centeno" src="images/migente/entrada_16_jeanc.png" title="Jean Carlos Centeno"></a>
+        <!-- / Final Jean C-->
        
-        <!-- Botón Directorio-->
-        <a class='tile TGrey double-v iconmain' href="17directorio.html"><img alt="Directorio" src="images/migente/entrada_17_directorio.png" title="Directorio"></a>
+        <!-- Botón Cinema-->
+        <a class='tile TGrey triple iconmain' href="17cinema.html"><img alt="Cinema Tour" src="images/migente/entrada_17_cinema.png" title="Cinema Tour"></a>
         <!-- / Final Botón Cinema-->
-        
-        <!-- Botón Cierre-->
-        <a class='tile TGrey double-box iconmain' href="18cierre.html"><img alt="cierre" src="images/migente/entrada_18_cierre.png" title="Cierre"></a>
-        <!-- / Final Botón Cierre-->
         
         <!-- Botón Horoscopo-->
-        <a class='tile TGrey iconmain' href="19horoscopo.html"><img alt="cierre" src="images/migente/entrada_19_horoscopo.png" title="Cierre"></a>
-        <!-- / Final Botón Horoscopo-->
+        <a class='tile TGrey triple-v iconmain' href="18horoscopo.html"><img alt="Horoscopo" src="images/migente/entrada_18_horoscopo.png" title="Horoscopo"></a>
+        <!-- / Final Botón Cierre-->
+        
+        <!-- Botón Bking-->
+        <a class='tile TGrey triple iconmain' href="19concierto5.html"><img alt="Bking" src="images/migente/entrada_19_bking.png" title="Bking"></a>
+        <!-- / Final Botón Bking-->
+        
+        <!-- Botón Cierre-->
+        <a class='tile TGrey double-box iconmain' href="20cierre.html"><img alt="Diana Jaramillo" src="images/migente/entrada_20_cierre.png" title="Diana Jaramillo"></a>
+        <!-- / Final Botón Cierre-->
+        
+        <!-- Botón Directorio-->
+        <a class='tile TGrey double-v iconmain' href="21directorio.html"><img alt="Directorio" src="images/migente/entrada_21_directorio.png" title="Directorio"></a>
+        <!-- / Final Botón Cierre-->
         
        </div>
        <!-- / Webbu Tiles -->
