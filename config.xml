@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.migente.android.cell"
-    version   = "3.11.9">
+    version   = "3.11.10">
 
 <name>Revista Mi Gente TV</name>
 
@@ -31,6 +31,8 @@ Royal Media
 <icon src="iconos/android/icono-144x144.png" gap:platform="android" gap:density="xhdpi" />
 
 <icon src="iconos/winphone/icon.png" gap:platform="winphone" />
+<icon src="iconos/winphone/tile_icon.png" gap:platform="winphone" gap:role="background" />
+
 
 <gap:splash src="splash.png" />
 <gap:splash src="splash/android/splash-200x320.png" gap:platform="android" gap:density="ldpi" />
