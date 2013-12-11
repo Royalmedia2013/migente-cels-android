@@ -2,12 +2,12 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.migente.android.cell"
-    version   = "3.11.10">
+    version   = "4.12.11">
 
 <name>Revista Mi Gente TV</name>
 
 <description>
-Revista Mi Gente TV Noviembre 2013.
+Revista Mi Gente TV Diciembre 2013.
 </description>
 
 <author href="https://vistad.co" email="vista@vistad.co">
@@ -30,16 +30,10 @@ Royal Media
 <icon src="iconos/android/icono-72x72.png" gap:platform="android" gap:density="hdpi" />
 <icon src="iconos/android/icono-144x144.png" gap:platform="android" gap:density="xhdpi" />
 
-<icon src="iconos/winphone/icon.png" gap:platform="winphone" />
-<icon src="iconos/winphone/tile_icon.png" gap:platform="winphone" gap:role="background" />
-
-
 <gap:splash src="splash.png" />
 <gap:splash src="splash/android/splash-200x320.png" gap:platform="android" gap:density="ldpi" />
 <gap:splash src="splash/android/splash-320x480.png" gap:platform="android" gap:density="mdpi" />
 <gap:splash src="splash/android/splash-480x800.png" gap:platform="android" gap:density="hdpi" />
 <gap:splash src="splash/android/splash-720x1280.png" gap:platform="android" gap:density="xhdpi" />
-
-<gap:splash src="splash/winphone/splash.jpg" gap:platform="winphone" />
 
 </widget>
