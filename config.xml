@@ -2,12 +2,12 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.migente.android.cell"
-    version   = "6.03.13">
+    version   = "7.04.14">
 
 <name>Revista Mi Gente TV</name>
 
 <description>
-Revista Mi Gente TV Marzo 2014.
+Revista Mi Gente TV Abril 2014.
 </description>
 
 <author href="https://vistad.co" email="vista@vistad.co">
