@@ -796,7 +796,16 @@ a img.aligncenter {
 /*--------------------------------------------------
 Loading Spinner
 ---------------------------------------------------*/
-.spinnerbg{width:100%; height:100%; background-color:#000; opacity:.8; position:absolute; z-index:5; top:-7px; left:-10px;}
+.spinnerbg{
+	width: 100%;
+	height: 724px;
+	background-color: #000;
+	opacity: .8;
+	position: absolute;
+	z-index: 5;
+	top: -703px;
+	left: -1094px;
+}
 #spinner.active {
     display: block;
 }
