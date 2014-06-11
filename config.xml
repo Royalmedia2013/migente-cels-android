@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.migente.android.cell"
-    version   = "7.06.11">
+    version   = "9.06.11">
 
 <name>Revista Mi Gente TV</name>
 
