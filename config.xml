@@ -14,7 +14,7 @@ Revista Mi Gente TV Edición 68.
 Royal Media
 </author>
 
-<preference name="phonegap-version" value="3.6.3" />
+<preference name="phonegap-version" value="3.7.0" />
 
 <preference name="splash-screen-duration" value="7000" />
 
