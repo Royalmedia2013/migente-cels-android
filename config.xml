@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.migente.android.cell"
-    version   = "12.11.10">
+    version   = "12.11.11">
 
 <name>Revista Mi Gente TV</name>
 
@@ -14,7 +14,7 @@ Revista Mi Gente TV Edición 71.
 Royal Media
 </author>
 
-<preference name="phonegap-version" value="cli-5.2.0" />
+<preference name="phonegap-version" value="3.7.0" />
 
 <preference name="splash-screen-duration" value="7000" />
 
