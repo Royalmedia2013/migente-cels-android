@@ -69,7 +69,7 @@ li{font-family:'droid_serifregular', sans-serif; line-height:18px; font-smooth:a
 GENERAL LAYOUT
 ---------------------------------------------------*/
 
-h1{font-family: 'droid_serifbold'; font-weight:normal; font-size:25px; line-height:32px; font-smooth:always; color:#ff241f;}
+h1{font-family: 'droid_serifbold'; font-weight:normal; font-size:25px; line-height:32px; font-smooth:always; color:#a9272d;}
 h2{font-size:20px; line-height:26px; font-smooth:always}
 h3{font-size:18px; font-smooth:always}
 h4{font-size:14px; line-height:16px; font-smooth:always}
@@ -820,7 +820,7 @@ Loading Spinner
 .ball { 
     position: absolute;
     display: block;
-    background-color: #ff241f;
+    background-color: #a9272d;
     left: 24px;
     width: 12px;
     height: 12px;
@@ -879,7 +879,7 @@ Loading Spinner
 
 .destacado1{
 	font-family: 'droid_serifitalic';
-	color:#ff241f;
+	color:#a9272d;
 	font-size:15px;
 	padding-top:10px;
 	padding-bottom:20px;
@@ -924,21 +924,21 @@ Loading Spinner
 	font-family: 'droid_serifbold';
 	font-weight:normal;
 	font-size:15px;
-	color:#ff241f;
+	color:#a9272d;
 }
 
 .texto_destacado{
 	font-family: 'droid_serifbold';
 	font-weight:normal;
 	font-size:15px;
-	color:#ff241f;
+	color:#a9272d;
 }
 
 .texto_destacado2{
 	font-family: 'droid_serifbold';
 	font-weight:normal;
 	font-size:17px;
-	color:#ff241f;
+	color:#a9272d;
 }
 
 .texto_premios{
@@ -952,19 +952,19 @@ Loading Spinner
 	font-family: 'droid_serifbold';
 	font-weight:normal;
 	font-size:17px;
-	color:#ff241f;
+	color:#a9272d;
 	margin: 10px 0 30px;
 	text-align:center;
 	display:block;
-	border-top:solid 1px #ff241f;
-	border-bottom:solid 1px #ff241f;
+	border-top:solid 1px #a9272d;
+	border-bottom:solid 1px #a9272d;
 }
 
 .link_videos a{
 	font-family: 'droid_serifbold';
 	font-weight:normal;
 	font-size:17px;
-	color:#ff241f;
+	color:#a9272d;
 	margin: 10px 0 10px 0;
 	text-align:center;
 	display:block;
