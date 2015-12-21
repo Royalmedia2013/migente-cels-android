@@ -31,15 +31,15 @@ Royal Media
 <feature name="http://api.phonegap.com/1.0/file" />
 
 <icon src="icon.png" />
-<icon src="iconos/android/icono-36x36.png" gap:platform="android" gap:density="ldpi" />
-<icon src="iconos/android/icono-48x48.png" gap:platform="android" gap:density="mdpi" />
-<icon src="iconos/android/icono-72x72.png" gap:platform="android" gap:density="hdpi" />
-<icon src="iconos/android/icono-144x144.png" gap:platform="android" gap:density="xhdpi" />
+<icon src="iconos/android/icono36x36.png" gap:platform="android" gap:density="ldpi" />
+<icon src="iconos/android/icono48x48.png" gap:platform="android" gap:density="mdpi" />
+<icon src="iconos/android/icono72x72.png" gap:platform="android" gap:density="hdpi" />
+<icon src="iconos/android/icono144x144.png" gap:platform="android" gap:density="xhdpi" />
 
 <gap:splash src="splash.png" />
-<gap:splash src="splash/android/splash-200x320.png" gap:platform="android" gap:density="ldpi" />
-<gap:splash src="splash/android/splash-320x480.png" gap:platform="android" gap:density="mdpi" />
-<gap:splash src="splash/android/splash-480x800.png" gap:platform="android" gap:density="hdpi" />
-<gap:splash src="splash/android/splash-720x1280.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="splash/android/splash200x320.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/splash320x480.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/splash480x800.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/android/splash720x1280.png" gap:platform="android" gap:density="xhdpi" />
 
 </widget>
