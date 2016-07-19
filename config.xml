@@ -3,19 +3,19 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
     id        = "com.migente.android.cell"
-    version   = "13.12.22">
+    version   = "13.12.23">
 
 <name>Revista Mi Gente TV</name>
 
 <description>
-Revista Mi Gente TV Edición 72.
+Revista Mi Gente TV
 </description>
 
 <author href="http://vistad.co" email="vista@vistad.co">
 Royal Media
 </author>
 
-<preference name="phonegap-version" value="3.7.0" />
+<preference name="phonegap-version" value="cli-6.0.0" />
 
 <preference name="splash-screen-duration" value="7000" />
 
