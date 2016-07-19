@@ -3,7 +3,7 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
     id        = "com.migente.android.cell"
-    version   = "13.12.25">
+    version   = "13.12.26">
 
 <name>Revista Mi Gente TV</name>
 
@@ -17,12 +17,12 @@ Royal Media
 
 <access origin="http://migente.fm" subdomains="true" />
 
-<plugin name="cordova-plugin-inappbrowser" spec="1.0.1" source="pgb" />
+<plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
 <plugin name="org.apache.cordova.splashscreen" spec="1.0.0" source="pgb" />
 
 <preference name="phonegap-version" value="cli-6.0.0" />
 <preference name="SplashScreen" value="splash.png" />
-<preference name="SplashScreenDelay" value="7000" />
+<preference name="SplashScreenDelay" value="5000" />
 <preference name="orientation" value="portrait" />
 <preference name="fullscreen" value="true" />
 <preference name="permissions" value="none"/>
