@@ -3,7 +3,7 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
     id        = "com.migente.android.cell"
-    version   = "13.12.23">
+    version   = "13.12.24">
 
 <name>Revista Mi Gente TV</name>
 
@@ -15,15 +15,15 @@ Revista Mi Gente TV
 Royal Media
 </author>
 
+<access origin="http://migente.fm" subdomains="true" />
+
 <preference name="phonegap-version" value="cli-6.0.0" />
-
 <preference name="splash-screen-duration" value="7000" />
-
 <preference name="orientation" value="portrait" />
-
 <preference name="fullscreen" value="true" />
-
 <preference name="permissions" value="none"/>
+
+<plugin name="cordova-plugin-inappbrowser" spec="1.0.1" source="pgb" />
 
 <feature name="http://api.phonegap.com/1.0/media"/>
 <feature name="http://api.phonegap.com/1.0/network"/>
@@ -31,15 +31,15 @@ Royal Media
 <feature name="http://api.phonegap.com/1.0/file" />
 
 <icon src="icon.png" />
-<icon src="iconos/android/icono36x36.png" gap:platform="android" gap:density="ldpi" />
-<icon src="iconos/android/icono48x48.png" gap:platform="android" gap:density="mdpi" />
-<icon src="iconos/android/icono72x72.png" gap:platform="android" gap:density="hdpi" />
-<icon src="iconos/android/icono144x144.png" gap:platform="android" gap:density="xhdpi" />
+<icon src="iconos/android/icono36x36.png" platform="android" qualifier="ldpi" />
+<icon src="iconos/android/icono48x48.png" platform="android" qualifier="mdpi" />
+<icon src="iconos/android/icono72x72.png" platform="android" qualifier="hdpi" />
+<icon src="iconos/android/icono144x144.png" platform="android" qualifier="xhdpi" />
 
-<gap:splash src="splash.png" />
-<gap:splash src="splash/android/splash200x320.png" gap:platform="android" gap:density="ldpi" />
-<gap:splash src="splash/android/splash320x480.png" gap:platform="android" gap:density="mdpi" />
-<gap:splash src="splash/android/splash480x800.png" gap:platform="android" gap:density="hdpi" />
-<gap:splash src="splash/android/splash720x1280.png" gap:platform="android" gap:density="xhdpi" />
+<splash src="splash.png" />
+<splash src="splash/android/splash200x320.png" platform="android" qualifier="ldpi" />
+<splash src="splash/android/splash320x480.png" platform="android" qualifier="mdpi" />
+<splash src="splash/android/splash480x800.png" platform="android" qualifier="hdpi" />
+<splash src="splash/android/splash720x1280.png" platform="android" qualifier="xhdpi" />
 
 </widget>
