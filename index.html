@@ -2,10 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Revista Boga</title>
+<title>Revista Mi Gente</title>
 
 <script type="text/javascript">
-	var ref = cordova.InAppBrowser.open('http://migente.fm/app_migente/', '_self', 'location=yes');
+	document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log("window.open works well");
+}
 </script>
 
 </head>
