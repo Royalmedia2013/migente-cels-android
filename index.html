@@ -1,15 +1,294 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Revista Mi Gente</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,700,600italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-<script type="text/javascript">
-	window.open = "http://migente.fm/app_migente/";
+    <title>Revista Mi Gente</title>
+
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/framework7/dist/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="bower_components/swipebox/src/css/swipebox.css">
+    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.theme.css">
+
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body class="">
+
+<div class="statusbar-overlay"></div>
+<div class="panel-overlay"></div>
+
+<!-- Left panel -->
+<div class="panel panel-left panel-reveal">
+    <div class="line"></div>
+
+    <div class="logo-box mt-10">
+        <img src="assets/img/migente/color_logo_migente_peq_menu.png" />
+    </div>
+
+    <div class="list-block mt-15">
+        <div class="list-group">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title"><strong>Inicio</strong></div>
+                            </div>
+                        </a>
+                    </li>
+
+					<li>
+                        <a href="editorial.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Editorial<strong><br/>El himno de una noche loca</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                    
+					<li>
+                        <a href="chismes.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title"><strong>Chismes</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="conteo.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Conteo<br/><strong>Top 5 Música</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="presenta.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Mi Gente presenta<br/><strong>Diego Gamboa</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                   <li>
+                        <a href="blanconegro.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title">En blanco y negro<br/><strong>Arelys Henao</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                   <li>
+                        <a href="portada.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Portada<br/><strong>Pasabordo</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                   <li>
+                        <a href="primerplano.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Primer Plano<br/><strong>Paty Cantú</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                      <li>
+                        <a href="artistames.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Artista del mes<br/><strong>Kevin Flórez</strong></div>
+                            </div>
+                        </a>
+                    </li>                
+                    <li>
+                        <a href="secretos.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Secretos de Mi Gente<br/><strong>Matecaña</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="directorio.html" class="item-link close-panel item-content">
+                            <div class="item-inner">
+                                <div class="item-title"><strong>Directorio de Artistas</strong></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+</div>
+
+<!-- Views -->
+<div class="views">
+    <div class="view view-main">
+
+        <div class="navbar navbar-clear anim-navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link icon-only open-panel">
+                        <img src="assets/img/migente/icono_menu2.png" />
+                    </a>
+                </div>
+                <div class="center sliding">
+                	<img class="anim-logo-small" src="assets/img/migente/color_logo_migente_peq.png" style="opacity: 0; padding: 5px 0 0 5px;" />
+                </div>
+                <!-- <div class="right">
+                    <a href="#" class="link icon-only open-panel" data-panel="right">
+                        <span class="kkicon icon-alarm"></span>
+                    </a>
+                </div> -->
+                
+            </div>
+        </div>
+
+        <div class="pages navbar-fixed toolbar-fixed ">
+            <div data-page="index" class="page">
+                <div class="page-content">
+
+                    <div class="nice-header header-fix-top small">
+                        <div class="logo anim-logo">
+                            <img src="assets/img/migente/color_logo_migente.png" class="logo_migente" />
+                        </div>
+                        <div class="triangulo_cabezote "></div>
+                    </div>
+                    <a href="portada.html">
+                        <article>
+                            <div class="author">
+                                <img src="assets/img/migente/color_icono_articulo.png" alt="Artículo"/>
+                                <img src="assets/img/migente/color_icono_galeria.png" alt="Galería"/>
+                                <img src="assets/img/migente/color_icono_video.png" alt="Video"/>
+                            </div>
+                            <div class="text">
+                                <h2>Pasabordo</h2>
+                                <span>En una noche loca</span>
+                            </div>
+                            <img class="article-bg" src="assets/img/migente/articulos/portada_00_ed77.jpg" alt=""/>                        
+                        </article>
+                    </a>
+                    
+                    <a href="artistames.html">
+                        <article>
+                            <div class="author">
+                                <img src="assets/img/migente/color_icono_articulo.png" alt="Artículo"/>
+                                <img src="assets/img/migente/color_icono_galeria.png" alt="Galería"/>
+                           </div>
+                            <div class="text">
+                                <h2>Kevin Flórez</h2>
+                                <span>El artista que se convierte en el Papá Pig de Kishany</span>
+                            </div>
+                            <img class="article-bg" src="assets/img/migente/articulos/artistames_00_ed77.jpg" alt=""/>
+                        </article>
+                    </a>
+                    
+                    <a href="secretos.html">
+                        <article>
+                            <div class="author">
+                                <img src="assets/img/migente/color_icono_articulo.png" alt="Artículo"/>
+                                <img src="assets/img/migente/color_icono_galeria.png" alt="Galería"/>
+                              </div>
+                            <div class="text">
+                                <h2>Matecaña</h2>
+                                <span>En busca de su nuevo amor</span>
+                            </div>
+                            <img class="article-bg" src="assets/img/migente/articulos/secretos_00_ed77.jpg" alt=""/>
+                        </article>
+                    </a>
+                    
+                    <a href="blanconegro.html">
+                        <article>
+                            <div class="author">
+                                <img src="assets/img/migente/color_icono_articulo.png" alt="Artículo"/>
+                                <img src="assets/img/migente/color_icono_galeria.png" alt="Galería"/>
+                            </div>
+                            <div class="text">
+                                <h2>Arelys Henao</h2>
+                                <span>“Dejé a mi padre en el cementerio y salí al concierto”</span>
+                            </div>
+                            <img class="article-bg" src="assets/img/migente/articulos/blanconegro_00_ed77.jpg" alt=""/>
+                        </article>
+                    </a>
+                    <a href="primerplano.html">
+                        <article>
+                            <div class="author">
+                                <img src="assets/img/migente/color_icono_articulo.png" alt="Artículo"/>
+                                <img src="assets/img/migente/color_icono_galeria.png" alt="Galería"/>
+                            </div>
+                            <div class="text">
+                                <h2>Paty Cantú</h2>
+                                <span>Llena de amor</span>
+                            </div>
+                            <img class="article-bg" src="assets/img/migente/articulos/primerplano_00_ed77.jpg" alt=""/>
+                        </article>
+                    </a>
+                                     
+                    <article>
+                      <ul class="lista-publicidad gallery-list">
+                        	<li><a href="assets/img/migente/publicidad/publicidad01_ed77.jpg" class="zoom" title=""><img src="assets/img/migente/publicidad/publicidad01_mini_ed77.jpg" /></a></li>
+                            <li><a href="assets/img/migente/publicidad/publicidad02_ed77.jpg" class="zoom" title=""><img src="assets/img/migente/publicidad/publicidad02_mini_ed77.jpg" /></a></li>
+                            <li><a href="assets/img/migente/publicidad/publicidad03_ed77.jpg" class="zoom" title=""><img src="assets/img/migente/publicidad/publicidad03_mini_ed77.jpg" /></a></li>
+                            <li><a href="assets/img/migente/publicidad/publicidad04_ed77.jpg" class="zoom" title=""><img src="assets/img/migente/publicidad/publicidad04_mini_ed77.jpg" /></a></li>
+                            <li><a href="assets/img/migente/publicidad/publicidad05_ed77.jpg" class="zoom" title=""><img src="assets/img/migente/publicidad/publicidad05_mini_ed77.jpg" /></a></li>
+                            <li><a href="assets/img/migente/publicidad/publicidad06_ed77.jpg" class="zoom" title=""><img src="assets/img/migente/publicidad/publicidad06_mini_ed77.jpg" /></a></li>
+                        </ul>
+                    </article>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Picker -->
+<div class="picker-modal picker-social">
+    <div class="toolbar">
+        <div class="toolbar-inner">
+            <div class="left"></div>
+            <div class="right"><a href="#" class="close-picker">done</a></div>
+        </div>
+    </div>
+    <div class="picker-modal-inner">
+        <div class="content-block mt-15 mb-10">
+            <h3>Sharing is sexy!</h3>
+
+            <p>Duis ac nibh ac quam quam sagittis tortor. Cum sociis natoque penatibus et neque.</p>
+
+            <div class="social-buttons">
+                <a href="#" class="kkicon-twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="kkicon-facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="kkicon-pinterest"><i class="fa fa-pinterest"></i></a>
+                <a href="#" class="kkicon-linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="kkicon-gplus"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="kkicon-flickr"><i class="fa fa-flickr"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/swipebox/src/js/jquery.swipebox.min.js"></script>
+<script type="text/javascript" src="bower_components/framework7/dist/js/framework7.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="bower_components/scrollAnimate/jquery.scrollAnimate.js"></script>
+<script src="bower_components/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
+
+<script type="text/javascript" src="assets/js/min/app.js"></script>
+<script type="text/javascript" src="assets/js/animations.js"></script>
+
+
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+<script>
+    var player;
+    function onYouTubePlayerAPIReady() {player = new YT.Player('player');}
+    //so on jquery event or whatever call the play or stop on the video.
+    //to play player.playVideo();
+	player.stopVideo();
 </script>
 
-</head>
-
-<body>
 </body>
 </html>
