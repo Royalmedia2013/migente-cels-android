@@ -5,10 +5,7 @@
 <title>Revista Mi Gente</title>
 
 <script type="text/javascript">
-	document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady() {
-    console.log("window.open works well");
-}
+	var ref = cordova.InAppBrowser.open('http://migente.fm/app_migente/', '_self', 'location=yes');
 </script>
 
 </head>
