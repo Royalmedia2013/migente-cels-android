@@ -16,7 +16,7 @@ Revista Mi Gente TV
 Royal Media
 </author>
 
-<access origin="http://migente.fm" subdomains="true" />
+<access origin="*" subdomains="true" />
 
 <plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
 <plugin name="org.apache.cordova.splashscreen" spec="1.0.0" source="pgb" />
