@@ -3,8 +3,8 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
     id        = "com.migente.android.cell"
-    version   = "13.13.03"
-	versionCode = "1429">
+    version   = "13.13.04"
+	versionCode = "1430">
 
 <name>Revista Mi Gente TV</name>
 
@@ -20,6 +20,10 @@ Royal Media
 
 <plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
 <plugin name="org.apache.cordova.splashscreen" spec="1.0.0" source="pgb" />
+<plugin name="com.indigoway.cordova.whitelist.whitelistplugin" spec="1.1.1" source="pgb" />
+
+<allow-navigation href="*://*.youtube.com/*" />
+<allow-navigation href="*://*.youtu.be/*" />
 
 <preference name="phonegap-version" value="cli-6.3.0" />
 <preference name="SplashScreen" value="splash.png" />
