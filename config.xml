@@ -19,8 +19,8 @@ Royal Media
 <access origin="*" subdomains="true" />
 
 <plugin name="cordova-plugin-inappbrowser" spec="0.6.0" source="npm" />
-<plugin name="org.apache.cordova.splashscreen" spec="1.0.0" source="pgb" />
-<plugin name="com.indigoway.cordova.whitelist.whitelistplugin" spec="1.1.1" source="pgb" />
+<plugin name="cordova-plugin-splashscreen" spec="1.0.0" source="npm" />
+<plugin name="cordova-plugin-whitelist" spec="1.1.1" source="npm" />
 
 <allow-navigation href="*://*.youtube.com/*" />
 <allow-navigation href="*://*.youtu.be/*" />
