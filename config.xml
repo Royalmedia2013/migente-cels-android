@@ -3,8 +3,8 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
     id        = "com.migente.android.cell"
-    version   = "13.13.06"
-	versionCode = "1432">
+    version   = "13.13.07"
+	versionCode = "1433">
 
 <name>Revista Mi Gente TV</name>
 
@@ -25,7 +25,7 @@ Royal Media
 <allow-navigation href="*://*.youtube.com/*" />
 <allow-navigation href="*://*.youtu.be/*" />
 
-<preference name="phonegap-version" value="cli-6.3.0" />
+<preference name="phonegap-version" value="cli-6.5.0" />
 <preference name="SplashScreen" value="splash.png" />
 <preference name="SplashScreenDelay" value="5000" />
 <preference name="orientation" value="portrait" />
