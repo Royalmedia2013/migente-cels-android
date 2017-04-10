@@ -3,8 +3,8 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
     id        = "com.migente.android.cell"
-    version   = "13.13.08"
-	versionCode = "1434">
+    version   = "13.13.09"
+	versionCode = "1435">
 
 <name>Revista Mi Gente TV</name>
 
