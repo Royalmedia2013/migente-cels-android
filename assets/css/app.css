@@ -45,6 +45,10 @@ Template:	    NOX - Mobile Web/APP Template
   -moz-osx-font-smoothing: grayscale;
 }
 
+.articulo_premios article::before {
+    background-image: none;
+}
+
 .icon-home:before {
   content: "\e600";
 }
