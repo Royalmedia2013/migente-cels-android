@@ -6514,7 +6514,7 @@ article .buttons a:hover {
 }
 article .text {
   position: absolute;
-  bottom: 45px;
+  bottom: 25px;
   left: 15px;
   z-index: 10;
 }
@@ -6554,7 +6554,7 @@ article .text span {
 @media (max-width: 480px) {
 	article .text h2 {
 	  font-size: 30px;
-	  line-height:50px;
+	  line-height:36px;
 	}
 	
 	article .text span {
