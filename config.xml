@@ -3,7 +3,7 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
 	xmlns:android   = "http://schemas.android.com/apk/res/android"
     id        = "com.migente.android.cell"
-    version   = "13.23.00"
+    version   = "13.23.01"
 	versionCode = "1450">
 
 <name>Revista Mi Gente TV</name>
@@ -31,6 +31,7 @@ Royal Media
 <preference name="orientation" value="portrait" />
 <preference name="fullscreen" value="true" />
 <preference name="permissions" value="none"/>
+<preference name="android-targetSdkVersion" value="26" />
 
 
 <feature name="http://api.phonegap.com/1.0/media"/>
