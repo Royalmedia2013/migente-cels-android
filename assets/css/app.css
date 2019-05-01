@@ -6838,6 +6838,12 @@ article .text span {
 .gallery-list.gallery-3col li {
   float: left;
   width: 33.3%;
+	
+}
+.gallery-list.gallery-4col li {
+  float: left;
+  width: 25%;
+	
 }
 .gallery-list > li {
   text-align: center;
